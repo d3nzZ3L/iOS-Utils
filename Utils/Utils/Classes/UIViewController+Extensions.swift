@@ -10,7 +10,7 @@ import UIKit
 
 public extension UIViewController {
     
-    func add(childViewController: UIViewController, to view: UIView) {
+    @objc func add(childViewController: UIViewController, to view: UIView) {
         let containerView = UIView()
         containerView.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(containerView)
