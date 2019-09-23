@@ -6,7 +6,7 @@ s.homepage          = 'https://github.com/wearemadru/iOS-Utils'
 s.description = <<-DESC
 Contains a collection of utils for iOS Apps
 DESC
-s.ios.deployment_target = '10.0'
+s.ios.deployment_target = '9.0'
 s.swift_version = '5.0'
 s.license           = { :type => 'MIT', :file => 'LICENSE' }
 s.author            = { 'Nick Sadchikov' => 'kolya.s@wearemad.ru' }
