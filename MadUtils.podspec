@@ -16,5 +16,5 @@ s.source            = {
 s.framework = 'UIKit', 'StoreKit', 'Foundation'
 s.source_files      = 'Utils/Utils/Classes/*'
 s.dependency 'Alamofire', '~> 4.4'
-s.dependency 'Nuke'
+s.dependency 'Nuke', '~> 7.2'
 end
