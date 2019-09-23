@@ -15,6 +15,6 @@ s.source            = {
 	:tag => "#{s.version}" }
 s.framework = 'UIKit', 'StoreKit', 'Foundation'
 s.source_files      = 'Utils/Utils/Classes/*'
-s.dependency 'Alamofire', '~> 5.0.0-beta.5'
+s.dependency 'Alamofire', '~> 4.4'
 s.dependency 'Nuke'
 end
