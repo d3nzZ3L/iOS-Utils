@@ -6,7 +6,7 @@ s.homepage          = 'https://github.com/wearemadru/iOS-Utils'
 s.description = <<-DESC
 Contains a collection of utils for iOS Apps
 DESC
-s.ios.deployment_target = '9.0'
+s.ios.deployment_target = '10.0'
 s.swift_version = '5.0'
 s.license           = { :type => 'MIT', :file => 'LICENSE' }
 s.author            = { 'Nick Sadchikov' => 'kolya.s@wearemad.ru' }
@@ -15,6 +15,6 @@ s.source            = {
 	:tag => "#{s.version}" }
 s.framework = 'UIKit', 'StoreKit', 'Foundation'
 s.source_files      = 'Utils/Utils/Classes/*'
-s.dependency 'Alamofire', '~> 4.4'
-s.dependency 'Nuke', '~> 7.5.2'
+s.dependency 'Alamofire', '~> 5.0.0-beta.5'
+s.dependency 'Nuke'
 end
